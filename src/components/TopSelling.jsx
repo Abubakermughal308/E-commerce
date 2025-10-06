@@ -38,7 +38,7 @@ const NewArrival = () => {
       <h1 className="md:text-5xl text-3xl s  font-extrabold mb-10  ">
         Top Selling
       </h1>
-      <div className="w-full flex md:flex-wrap overflow-auto [scrollbar-width:none] md:gap-8 gap-4 justify-start md:justify-center">
+      <div className={ `w-full flex  overflow-auto [scrollbar-width:none] md:gap-8 gap-4  md:justify-center  + ${newArrivals.length > 4 ? "flex-wrap gap-2 justify-center items-center" : "justify-start"}`}>
         {newArrivals.map((item) => {
           return (
             <Link to={"/product?P=" + item.id} key={item.id}>

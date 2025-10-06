@@ -288,17 +288,17 @@ export const RatingAndReviews = () => {
               placeholder="Drop Your Comment"
               type="text"
             />
-            <button className="py-2 px-4 bg-black text-white rouded-full mx-auto my-1 ">
+            <button className="py-2 px-4 bg-black text-white rouded-full  my-1 ">
               Submit
             </button>
           </form>
         </div>
       )}
       <div className="md:px-7 px-1 md:py-10 py-4">
-        <div className="flex justify-between  my-3">
+        <div className="flex justify-between   my-3">
           <h1 className="text-2xl font-bold">All Reviews</h1>
-          <div className="md:flex gap-3">
-            <button className="bg-stone-300 md:text-lg text-base hover:bg-stone-400 px-4 py-2 rounded-full cursor-pointer">
+          <div className="md:flex ">
+            <button className="bg-stone-300 md:text-lg text-base hover:bg-stone-400 px-4 py-2 mx-1 rounded-full cursor-pointer">
               Latest
             </button>
             <button
