@@ -18,7 +18,7 @@ const Header = ({ setSearchVisible, setInputText, inputText }) => {
     setInputText("");
   };
   return (
-    <div>
+    <div className="">
       {menu && <SideBar setMenu={setMenu} />}
       <div className="flex justify-between shadow-lg items-center px-6 py-4 w-full">
         <div className="flex md:gap-6 lg:gap-10 lg:w-6/12 text-center gap-3">

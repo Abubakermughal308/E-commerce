@@ -2,7 +2,7 @@ const Crousal =()=>{
     return(
         <div>
             <div className="w-full ">
-            <img className="w-full h-auto" src="..\svg\Screenshot 2025-08-23 154719.png" alt="" />
+            <img className="w-full h-auto" src="../svg/Screenshot 2025-08-23 154719.png" alt="" />
         </div>
         <ul className="bg-black text-white text-4xl shadow-2xl flex justify-evenly flex-wrap px-5 md:py-7 ">
             <li className="font-bold  py-2 px-1.5">VERSACE</li>

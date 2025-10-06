@@ -138,7 +138,7 @@ const ProductDetails = () => {
               {button.map((btn) => (
                 <button
                   key={btn.id}
-                  className={`text-lg px-4 rounded-2xl py-1 cursor-pointer bg-stone-300 ${
+                  className={`md:text-lg text-sm px-4 rounded-2xl py-1 cursor-pointer bg-stone-300 ${
                     size === btn.name ? "bg-black text-white" : ""
                   }`}
                   onClick={() => setSize(btn.name)}
@@ -271,7 +271,7 @@ export const RatingAndReviews = () => {
     <div>
       {comment && (
         <div className="w-full h-auto py-4 border rounded-2xl border-gray-300 px-2">
-          <X className="" onClick={() => setComment(false)} />
+          <X className="float-right my-2 cursor-pointer" onClick={() => setComment(false)} />
           <form
             onSubmit={(e) => {
               e.preventDefault();
@@ -288,7 +288,7 @@ export const RatingAndReviews = () => {
               placeholder="Drop Your Comment"
               type="text"
             />
-            <button className="py-2 px-4 bg-black text-white rouded-full mx-auto my-1">
+            <button className="py-2 px-4 bg-black text-white rouded-full mx-auto my-1 ">
               Submit
             </button>
           </form>

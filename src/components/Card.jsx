@@ -4,7 +4,7 @@ const Card =({data})=>{
     const {title , price , rating ,images ,discountPercentage} = data
 
     return(
-        <div className="md:w-60 w-32 cursor-pointer shrink-0 ">
+        <div className="md:w-60 w-28 cursor-pointer shrink-0 ">
         <img className=" rounded-2xl overflow-hidden md:h-64 h-32
           " src={images[0]} alt="" />
        {images[0] && <div>
