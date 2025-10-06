@@ -4,7 +4,7 @@ import { useState } from "react";
 const SideBar = ({ setMenu }) => {
   const [shop, setShop] = useState(false);
   return (
-    <div className="w-full transition-discrete transition-all  fixed" onBlur={() => setMenu(false)}>
+    <div className="w-full transition-all duration-300 ease-in-out  fixed" onBlur={() => setMenu(false)}>
       <div className=" bg-white text-black top-0 left-0 h-screen w-7/12 py-4 px-2 ">
         <div className="flex justify-between px-3">
           <h1 className="md:text-3xl  text-2xl  font-extrabold ">SHOP.CO</h1>
